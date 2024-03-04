@@ -8,11 +8,11 @@
 }
 
 body html {
-    background-color: white;
+    background-color: lightgrey;
 }
 
 header {
-    background: grey;
+    background: rgba(148, 148, 148);
     
 }
 
@@ -21,8 +21,23 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+span#burger{
+    background-color: rgb(48, 48, 48);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+span#burger:hover{
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul  {
