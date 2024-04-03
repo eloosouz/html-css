@@ -6,9 +6,16 @@
     <title>Flexible Box</title>
     <style>
         div.container {
-            background-color: salmon;
+            background-color: rgb(33, 219, 126);
+            height: 300px;
 
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: stretch;
+
+
+
         }
 
         div.item {
@@ -16,7 +23,6 @@
             border: 1px solid black;
             text-align: center;
 
-            flex: auto;
         }
     </style>
 </head>
